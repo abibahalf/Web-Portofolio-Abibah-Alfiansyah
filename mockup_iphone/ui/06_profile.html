@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Profile</title>
+  <link rel="stylesheet" href="app.css" />
+  <style>
+    .prof-top {
+      height: 253px;
+      background: url("../assets/profile.jpg") center/cover no-repeat;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 34px;
+      color: #fff;
+    }
+    .prof-top img {
+      width: 135px;
+      height: 135px;
+      border-radius: 50%;
+      background: #fff;
+      object-fit: cover;
+    }
+    .sheet {
+      width: 90%;
+      margin: -40px auto 0;
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 5px 10px rgba(0,0,0,.12);
+      padding: 16px;
+      position: relative;
+      z-index: 2;
+    }
+  </style>
+</head>
+<body>
+  <div class="phone">
+    <div class="screen" style="background:#060c62;">
+      <div class="status" style="background:transparent;color:#fff;"><span>09:41</span><span class="right">●●●● Wi‑Fi 100%</span></div>
+      <div class="body" style="background:#060c62; overflow:hidden;">
+        <div class="prof-top">
+          <img src="../assets/profile.png" alt="foto" />
+          <div style="height:10px;"></div>
+          <div style="font-size:15.6px;font-weight:700;"> Budi Santoso</div>
+          <div style="font-size:15.6px;">  budi@email.com</div>
+        </div>
+        <div class="sheet">
+          <div class="list-tile"><span class="material-icons">phone</span><div><div class="t">Phone Number</div><div class="s">-</div></div></div>
+          <div class="div"></div>
+          <div class="list-tile"><span class="material-icons">person</span><div><div class="t">Gender</div><div class="s">-</div></div></div>
+          <div class="div"></div>
+          <div class="list-tile"><span class="material-icons">location_on</span><div><div class="t">Province</div><div class="s">-</div></div></div>
+          <div class="div"></div>
+          <div class="list-tile"><span class="material-icons">location_city</span><div><div class="t">City</div><div class="s">-</div></div></div>
+          <div class="div"></div>
+          <div class="list-tile"><span class="material-icons">date_range</span><div><div class="t">Member Since</div><div class="s">-</div></div></div>
+        </div>
+      </div>
+      <button class="fab"><span class="material-icons" style="color:#fff;font-size:16px;">logout</span> Logout</button>
+      <nav class="bnav">
+        <a href="03_beranda.html"><span class="material-icons">home</span>Home</a>
+        <a href="05_progress.html"><span class="material-icons">assignment</span>Survey</a>
+        <a href="07_promo.html"><span class="material-icons">local_offer</span>Promo</a>
+        <a><span class="material-icons">timer</span>Activity</a>
+        <a class="on" href="06_profile.html"><span class="material-icons">person</span>Profile</a>
+      </nav>
+    </div>
+  </div>
+</body>
+</html>

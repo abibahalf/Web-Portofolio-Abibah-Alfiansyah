@@ -1,5 +1,5 @@
-<!-- BEGIN:nextjs-agent-rules -->
-# This is NOT the Next.js you know
+# Agent notes
 
-This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing any code. Heed deprecation notices.
-<!-- END:nextjs-agent-rules -->
+This is a **Vite + React + TypeScript** SPA (not Next.js).
+
+Prefer standard React patterns: components, hooks (`useState`, `useEffect`, context), and client-side rendering. Do not introduce Next.js App Router APIs (`next/image`, `next/link`, Server Components, `"use client"`).

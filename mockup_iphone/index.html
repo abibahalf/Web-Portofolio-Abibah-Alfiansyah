@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AAG4U — Mockup iPhone (UI asli)</title>
+  <style>
+    :root { --navy: #233d63; --bg: #f4f6fa; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Roboto, "Segoe UI", sans-serif; background: var(--bg); color: var(--navy); }
+    header {
+      background: #233d63; color: #fff; padding: 28px 20px; text-align: center;
+    }
+    header img { height: 48px; margin-bottom: 8px; }
+    header p { opacity: .85; margin-top: 6px; font-size: .9rem; }
+    .note {
+      max-width: 1100px; margin: 18px auto 0; padding: 12px 16px;
+      background: #fff; border-left: 4px solid #233d63; font-size: .9rem;
+    }
+    .grid {
+      max-width: 1100px; margin: 0 auto; padding: 24px 16px 64px;
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 20px;
+    }
+    article {
+      background: #fff; border-radius: 16px; overflow: hidden;
+      box-shadow: 0 8px 24px rgba(35,61,99,.1);
+    }
+    article img { width: 100%; display: block; background: #eceff4; }
+    article h2 { font-size: .95rem; padding: 12px 14px 2px; }
+    article p { font-size: .8rem; color: #5b6b82; padding: 0 14px 14px; }
+    article a { color: #111df1; font-size: .8rem; padding: 0 14px 14px; display: inline-block; }
+    footer { text-align: center; padding: 16px; color: #7a8799; font-size: .8rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="assets/aag.png" alt="AAG" />
+    <h1>Mockup AAG4U di iPhone</h1>
+    <p>Layout, ikon, banner, promo, dan teks mengikuti UI Flutter yang ada — tidak diubah.</p>
+  </header>
+  <p class="note">Gambar PNG memakai aset asli aplikasi (logo, ikon menu, banner API, promo, blog, splash). Versi interaktif ada di folder <code>ui/</code>.</p>
+  <section class="grid">
+    <article>
+      <img src="01_splash_iphone.png" alt="Splash" />
+      <h2>01 · Splash</h2>
+      <p>Gambar splash dari API AAG, background rgb(38, 57, 77).</p>
+      <a href="ui/01_splash.html">Buka di iPhone</a>
+    </article>
+    <article>
+      <img src="02_login_iphone.png" alt="Login" />
+      <h2>02 · Login / Profile tab</h2>
+      <p>Welcome!, Email, Password, Login, Sign Up, Sign in with Google.</p>
+      <a href="ui/02_login.html">Buka di iPhone</a>
+    </article>
+    <article>
+      <img src="03_beranda_iphone.png" alt="Beranda" />
+      <h2>03 · Beranda</h2>
+      <p>Banner, 8 ikon menu, testimoni, iklan SURVEY GRATIS, blog.</p>
+      <a href="ui/03_beranda.html">Buka di iPhone</a>
+    </article>
+    <article>
+      <img src="04_survey_iphone.png" alt="Permintaan Survey" />
+      <h2>04 · Permintaan Survey</h2>
+      <p>HAMA, Provinsi, Kota, Kecamatan, Kelurahan, Alamat, Jadwal, Jam, WhatsApp, Submit.</p>
+      <a href="ui/04_survey.html">Buka di iPhone</a>
+    </article>
+    <article>
+      <img src="05_progress_iphone.png" alt="Treatment Progress" />
+      <h2>05 · Treatment Progress</h2>
+      <p>Tab Request / Survey / Offer / Deal + kartu ListTile.</p>
+      <a href="ui/05_progress.html">Buka di iPhone</a>
+    </article>
+    <article>
+      <img src="06_profile_iphone.png" alt="Profile" />
+      <h2>06 · Profile (sudah login)</h2>
+      <p>Foto, Phone Number, Gender, Province, City, Member Since, Logout.</p>
+      <a href="ui/06_profile.html">Buka di iPhone</a>
+    </article>
+    <article>
+      <img src="07_promo_iphone.png" alt="Promo" />
+      <h2>07 · Promo</h2>
+      <p>Gambar promo asli dari API (Termite, MEInyala, Nyamuk).</p>
+      <a href="ui/07_promo.html">Buka di iPhone</a>
+    </article>
+    <article>
+      <img src="08_blog_iphone.png" alt="Blog" />
+      <h2>08 · Blog</h2>
+      <p>Artikel dari API getPostLimit.</p>
+      <a href="ui/08_blog.html">Buka di iPhone</a>
+    </article>
+  </section>
+  <footer>AAG Pest Control · UI mengikuti kode Flutter, tidak di-redesign</footer>
+</body>
+</html>
